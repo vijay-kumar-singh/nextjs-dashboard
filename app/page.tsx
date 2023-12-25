@@ -18,7 +18,7 @@ export default function Page() {
           <p
             className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}
           >
-            <strong>Welcome to VJ World.</strong> This is the dashboard application developed using{' '}
+            <strong>Welcome to VJWorld.</strong> This is the dashboard application developed using{' '}
             <a href="https://nextjs.org/" className="text-blue-500">
               Next.js
             </a>
