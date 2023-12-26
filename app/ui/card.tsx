@@ -8,7 +8,7 @@ export default function Card() {
     >
       <img
         className="h-48 w-full object-cover"
-        src={'/invoice_dashboard.png'}
+        src={'/invoice_portal.png'}
         alt=""
       />
       <div className="text-center font-medium text-lg text-gray-800">customer invoice dashboard</div>
