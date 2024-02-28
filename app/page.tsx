@@ -37,6 +37,8 @@ export default function Page() {
           <Card />
         </div>
       </div>
+      <p>https://1drv.ms/f/s!Aj1dudzNcFBxj-5FpgzJb1u_xxG40w?e=qhyNJg</p>
     </main>
+    
   );
 }
