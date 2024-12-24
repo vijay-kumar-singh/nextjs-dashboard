@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 export default function SocialMediaLink() {
   return (
-    <div className="flex justify-center space-x-1 text-gray-700">
+    <div className="flex space-x-4">
       <a
         href="https://www.linkedin.com/in/vijay-kumar-singh/"
         target="_blank"
