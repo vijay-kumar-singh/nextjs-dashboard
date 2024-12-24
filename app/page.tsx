@@ -25,13 +25,9 @@ export default function Page() {
           <p
             className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}
           >
-            <strong>Welcome to VJWorld.</strong> I am Vijay Singh, a Frontend
-            Technology Specialist for a Digital Transformation Program,
-            responsible for solution design, architecture, development, and
-            delivery with over 10 years of experience working with
-            next-generation Web Applications technologies (React, Next.js) for
-            large enterprise clients in various industries including Insurance,
-            Travel (Aviation), Finance, and E-commerce.
+           Welcome to the portfolio of Vijay Singh — a Web Technology Specialist with over 10 years of expertise in solution design, architecture, development, and delivery of next-generation web applications. I am passionate about leveraging advanced technologies like React and Next.js to craft scalable and efficient solutions that empower businesses in their digital transformation journey.
+           Throughout my career, I’ve partnered with leading enterprise clients across diverse industries, including Insurance, Travel (Aviation), Finance, and E-commerce. This breadth of experience has equipped me with a deep understanding of varied business challenges and how innovative web technologies can address them effectively.
+           Let’s connect to explore opportunities for collaboration or discuss how my expertise can help bring your vision to life.
           </p>
           <Link
             href="/dashboard"
