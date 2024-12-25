@@ -5,7 +5,7 @@ import SocialMediaLink from '@/app/ui/social-media-link';
 
 const Header = () => {
   return (
-    <header className="mb-6 bg-gray-800 px-6 py-4 text-white shadow-md">
+    <header className="bg-gray-800 px-6 py-4 text-white shadow-md">
       <div className="container mx-auto flex items-center justify-between">
         {/* AcmeLogo aligned to the left */}
         <div className="inline-flex justify-start">
