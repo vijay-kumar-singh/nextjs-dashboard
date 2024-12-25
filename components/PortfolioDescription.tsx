@@ -35,7 +35,7 @@ export default function PortfolioDescription() {
         </motion.li>
         <motion.li variants={itemVariants}>
           <span className={`${lusitana.className}`}>
-            Passionate about leveraging advanced technologies like React and Next.js to craft scalable and efficient solutions that empower businesses in their digital transformation journey.
+            Passionate about leveraging advanced web technologies like React and Next.js to craft scalable and efficient web solutions that empower businesses in their digital transformation journey.
           </span>
         </motion.li>
         <motion.li variants={itemVariants}>

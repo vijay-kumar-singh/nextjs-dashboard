@@ -2,11 +2,10 @@ import '../styles/globals.css';
 import dynamic from 'next/dynamic'; // Importing dynamic for dynamic imports
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
-import PortfolioDescriptionWrapper from './PortfolioDescriptionWrapper';
+import PortfolioDescriptionWrapper from '../components/PortfolioDescriptionWrapper';
 
 export const revalidate = 0; // Disable caching for fresh data
 
-// Fetch Data Function
 async function fetchData() {
   const response = await fetch('https://jsonplaceholder.typicode.com/todos/1', {
     cache: 'no-store', // Disable caching for this specific fetch
