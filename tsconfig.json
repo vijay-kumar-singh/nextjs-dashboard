@@ -21,9 +21,12 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./*"],
-      "@components/*": ["components/*"],
-      "@lib/*": ["lib/*"],
-      "@ui/*": ["ui/*"]
+      "@components/*": ["src/components/*"],
+      "@lib/*": ["src/lib/*"],
+      "@ui/*": ["src/ui/*"],
+      "@scss/*": [
+        "src/scss/*"
+      ]
     }
   },
   "include": [

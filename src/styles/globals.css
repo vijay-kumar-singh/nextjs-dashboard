@@ -1,0 +1,44 @@
+/* Reset any default margin or padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ensure the body and html elements fill the full height */
+html,
+body {
+  height: 100%;
+}
+
+/* Optionally style the body for consistent layout */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+/* Define base themes */
+body[data-theme='light'] {
+  --bg-color: #f7fafc;
+  --text-color: #1a202c;
+}
+
+body[data-theme='dark'] {
+  --bg-color: #1a202c;
+  --text-color: #f7fafc;
+}
+
+/* Apply to main (or reusable global classes) */
+main {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+/* Add background gradient for the header */
+header {
+  background: linear-gradient(135deg, #4b6cb7, #182848);
+}
+
+/* Add a gradient effect for the footer text */
+footer {
+    background: linear-gradient(135deg, #4b6cb7, #182848);
+}
