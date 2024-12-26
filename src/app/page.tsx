@@ -34,7 +34,7 @@ export default async function Page() {
           >
             <span>Dashboard</span> <ArrowRightIcon className="w-6" />
           </Link>
-          <Link
+          {/* <Link
             href="/blogs"
             className="flex items-center justify-center gap-5 rounded-xl bg-gradient-to-r from-[#4b6cb7] via-[#4b6cb7] to-[#182848] px-10 py-5 text-lg font-medium text-white shadow-lg transition-all duration-300 hover:scale-105 focus:outline-none"
           >
@@ -45,7 +45,7 @@ export default async function Page() {
             className="flex items-center justify-center gap-5 rounded-xl bg-gradient-to-r from-[#4b6cb7] via-[#4b6cb7] to-[#182848] px-10 py-5 text-lg font-medium text-white shadow-lg transition-all duration-300 hover:scale-105 focus:outline-none"
           >
             <span>Netlify Site</span> <ArrowRightIcon className="w-6" />
-          </Link>
+          </Link> */}
           
         </div>
        
