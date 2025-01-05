@@ -3,7 +3,6 @@ import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import PortfolioDescriptionWrapper from '../components/PortfolioDescriptionWrapper';
 
-
 export const revalidate = 0; // Disable caching for fresh data
 
 async function fetchData() {
@@ -34,12 +33,13 @@ export default async function Page() {
           >
             <span>Dashboard</span> <ArrowRightIcon className="w-6" />
           </Link>
-          <Link
-            href="/dummy" as="https://lib-management-phi.vercel.app"
+          <a
+            href="https://lib-management-phi.vercel.app"
+            target="_blank"
             className="flex items-center justify-center gap-5 rounded-xl bg-gradient-to-r from-[#4b6cb7] via-[#4b6cb7] to-[#182848] px-10 py-5 text-lg font-medium text-white shadow-lg transition-all duration-300 hover:scale-105 focus:outline-none"
           >
-            <span>AI Powered App</span> <ArrowRightIcon className="w-6" />
-          </Link>
+            <span>AI powered Library App</span> <ArrowRightIcon className="w-6" />
+          </a>
           {/* <Link
             href="/blogs"
             className="flex items-center justify-center gap-5 rounded-xl bg-gradient-to-r from-[#4b6cb7] via-[#4b6cb7] to-[#182848] px-10 py-5 text-lg font-medium text-white shadow-lg transition-all duration-300 hover:scale-105 focus:outline-none"
@@ -52,9 +52,7 @@ export default async function Page() {
           >
             <span>Netlify Site</span> <ArrowRightIcon className="w-6" />
           </Link> */}
-          
         </div>
-       
       </div>
     </main>
   );
