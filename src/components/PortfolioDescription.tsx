@@ -30,7 +30,7 @@ export default function PortfolioDescription() {
       >
         <motion.li variants={itemVariants}>
           <span className={`${lusitana.className}`}>
-            Welcome to the portfolio of Vijay Singh — a Web Technology Specialist with over 10 years of expertise in solution design, architecture, development, and delivery of next-generation web applications.
+            Welcome to the portfolio of Vijay Singh — a Web Technology Specialist with over 12 years of expertise in solution design, architecture, development, and delivery of next-generation web applications.
           </span>
         </motion.li>
         <motion.li variants={itemVariants}>
